@@ -2,36 +2,36 @@
 Banking Analysis SQL Project
 Project Overview
 
-This project simulates a real-world banking analytics environment using MySQL and realistic mock financial data. The goal is to demonstrate end-to-end SQL data analysis skills, from database design to advanced analytics, while answering stakeholder-style business questions related to customer behavior, profitability, and credit risk.
+> This project simulates a real-world banking analytics environment using MySQL and realistic mock financial data. The goal is to demonstrate end-to-end SQL data analysis skills, from database design to advanced analytics, while answering stakeholder-style business questions related to customer behavior, profitability, and credit risk.
 
 The project is designed for a data analyst / analytics / banking analytics portfolio and focuses on writing clean, scalable, and production-style SQL.
 
-Business Objectives
+> Business Objectives
 
-As a data analyst supporting a retail bank, this project aims to:
+    As a data analyst supporting a retail bank, this project aims to:
+    
+    Understand customer financial behavior across accounts, transactions, and loans
+    
+    Measure customer profitability and lifetime value (CLV)
+    
+    Identify high-risk customers based on missed payments and balances
+    
+    Analyze loan delinquency trends by loan type and over time
+    
+    Provide reusable analytics through views, stored procedures, and triggers
+    
+    Dataset & Schema
 
-Understand customer financial behavior across accounts, transactions, and loans
+> The database consists of 5 interrelated tables:
 
-Measure customer profitability and lifetime value (CLV)
-
-Identify high-risk customers based on missed payments and balances
-
-Analyze loan delinquency trends by loan type and over time
-
-Provide reusable analytics through views, stored procedures, and triggers
-
-Dataset & Schema
-
-The database consists of 5 interrelated tables:
-
-Table	Description
-customers	Customer demographics and risk classification
-accounts	Checking and savings account balances
-transactions	Individual account-level transactions
-loans	Loan details including type, amount, and interest rate
-payments	Monthly loan payment history and payment status
-
-All data is realistic mock data and fully aligned using primary and foreign keys.
+    Table	Description
+    customers	Customer demographics and risk classification
+    accounts	Checking and savings account balances
+    transactions	Individual account-level transactions
+    loans	Loan details including type, amount, and interest rate
+    payments	Monthly loan payment history and payment status
+    
+    All data is realistic mock data and fully aligned using primary and foreign keys.
 
 Key SQL Skills Demonstrated
 
