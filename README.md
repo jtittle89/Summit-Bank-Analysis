@@ -33,56 +33,57 @@ The project is designed for a data analyst / analytics / banking analytics portf
     
     All data is realistic mock data and fully aligned using primary and foreign keys.
 
-Key SQL Skills Demonstrated
+> Key SQL Skills Demonstrated
 
-Relational database design
+    Relational database design
+    
+    Complex JOINs across multiple tables
+    
+    Aggregations and conditional logic (CASE WHEN)
+    
+    Common Table Expressions (CTEs)
+    
+    Window functions (ranking, segmentation)
+    
+    Views for reusable analytics
+    
+    Stored procedures for automation
+    
+    Triggers for real-time risk flagging
+    
+    Date handling and time-based analysis
+    
+    Error handling with ONLY_FULL_GROUP_BY
 
-Complex JOINs across multiple tables
+> Key Analyses Performed
 
-Aggregations and conditional logic (CASE WHEN)
-
-Common Table Expressions (CTEs)
-
-Window functions (ranking, segmentation)
-
-Views for reusable analytics
-
-Stored procedures for automation
-
-Triggers for real-time risk flagging
-
-Date handling and time-based analysis
-
-Error handling with ONLY_FULL_GROUP_BY
-
-Key Analyses Performed
-Customer Profitability
-
-Combined deposits, transaction activity, loan interest, and late payments
-
-Built a customer profitability view for reporting
-
-Customer Lifetime Value (CLV)
-
-Created a weighted CLV metric using:
-
-Account balances
-
-Transaction volume
-
-Loan interest revenue
-
-Payment behavior penalties
-
-Segmented customers into High / Medium / Low Value tiers
-
-Credit Risk & Delinquency
-
-Calculated delinquency rates by loan type and month
-
-Identified customers missing multiple payments in recent periods
-
-Automatically flagged high-risk customers via stored procedures and triggers
+     Customer Profitability
+    
+        Combined deposits, transaction activity, loan interest, and late payments
+        
+        Built a customer profitability view for reporting
+        
+        Customer Lifetime Value (CLV)
+        
+        Created a weighted CLV metric using:
+        
+        Account balances
+        
+        Transaction volume
+        
+        Loan interest revenue
+        
+        Payment behavior penalties
+        
+        Segmented customers into High / Medium / Low Value tiers
+    
+    Credit Risk & Delinquency
+    
+        Calculated delinquency rates by loan type and month
+        
+        Identified customers missing multiple payments in recent periods
+        
+        Automatically flagged high-risk customers via stored procedures and triggers
 
 Automation & Advanced Features
 
