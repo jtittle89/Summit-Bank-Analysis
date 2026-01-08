@@ -85,20 +85,20 @@ The project is designed for a data analyst / analytics / banking analytics portf
         
         Automatically flagged high-risk customers via stored procedures and triggers
 
-Automation & Advanced Features
+> Automation & Advanced Features
 
-Stored Procedure to recalculate and update customer risk levels
+    Stored Procedure to recalculate and update customer risk levels
+    
+    Trigger to auto-flag customers when a payment status changes to Missed
+    
+    Views to support repeatable reporting and downstream BI tools
 
-Trigger to auto-flag customers when a payment status changes to Missed
+> Example Business Questions Answered
 
-Views to support repeatable reporting and downstream BI tools
-
-Example Business Questions Answered
-
-What percentage of customers have both checking and savings accounts?
-
-Which customers missed 2+ payments in the last 6 months?
-
-How does loan delinquency vary by loan type over time?
-
-Who are the most profitable and highest-risk customers?
+    What percentage of customers have both checking and savings accounts?
+    
+    Which customers missed 2+ payments in the last 6 months?
+    
+    How does loan delinquency vary by loan type over time?
+    
+    Who are the most profitable and highest-risk customers?
