@@ -1,10 +1,9 @@
 # Summit-Bank-Analysis
 Banking Analysis SQL Project
+
 Project Overview
 
 > This project simulates a real-world banking analytics environment using MySQL and realistic mock financial data. The goal is to demonstrate end-to-end SQL data analysis skills, from database design to advanced analytics, while answering stakeholder-style business questions related to customer behavior, profitability, and credit risk.
-
-The project is designed for a data analyst / analytics / banking analytics portfolio and focuses on writing clean, scalable, and production-style SQL.
 
 > Business Objectives
 
@@ -24,12 +23,12 @@ The project is designed for a data analyst / analytics / banking analytics portf
 
 > The database consists of 5 interrelated tables:
 
-    Table	Description
-    customers	Customer demographics and risk classification
-    accounts	Checking and savings account balances
+    Table	        Description
+    customers	    Customer demographics and risk classification
+    accounts	    Checking and savings account balances
     transactions	Individual account-level transactions
-    loans	Loan details including type, amount, and interest rate
-    payments	Monthly loan payment history and payment status
+    loans	        Loan details including type, amount, and interest rate
+    payments	    Monthly loan payment history and payment status
     
     All data is realistic mock data and fully aligned using primary and foreign keys.
 
